@@ -1,12 +1,6 @@
 <template>
-  <v-app>
-    <Navbar/>
-    <v-system-bar></v-system-bar>
-    <v-app-bar title="Application"></v-app-bar>
-   
-    <v-main>
 <v-container >
-        <v-table height="300px" fixed-header>
+<v-table height="300px" fixed-header>
     <thead>
       <tr>
         <th class="text-left">
@@ -49,11 +43,7 @@
     </tbody>
   </v-table>
 </v-container>
-    </v-main>
-  </v-app>
 </template>
-
-
 
 <script>
 import Navbar from "@/components/Navigation.vue";
